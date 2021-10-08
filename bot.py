@@ -26,7 +26,7 @@ def start(client, message):
             message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n I Am SL Bot Zero Bot🥰 \nYou Can Contct SZ Admins And See our All Projects Using This Bot[…](https://t.me/omindas)",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔱 Our Projects 🔱" ,url="https://t.me/slbotzone") ],
+                    InlineKeyboardButton("🔱 Our Projects 🔱" ,callback_data="bots") ],
                     
 [InlineKeyboardButton("🌐 Our Website 🌐" ,url="https://szbots.ml") ],
 
