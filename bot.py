@@ -36,12 +36,12 @@ START_BTN = InlineKeyboardMarkup(
         )
 
 BOTS_TEXT = f"""
-Here are bots
+Here There This Is A Our Bots And Projects 👇👇
 """
 BOTS_BTN = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Back", callback_data="startmenu")
+                    InlineKeyboardButton("Go Back 👈", callback_data="startmenu")
                 ]
             ]
         )
