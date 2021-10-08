@@ -30,11 +30,10 @@ def start(client, message):
                     
 [InlineKeyboardButton("Our Website 🌐" ,url="https://szbots.ml") ],
 
-[InlineKeyboardButton("Admins 🇱🇰" ,url="https://t.me/slbotzone") ],
+[InlineKeyboardButton("Admins 🇱🇰" ,url="https://t.me/slbotzone"),
 
 [InlineKeyboardButton("Ask Quize ❗" ,url="https://t.me/slbotzone") ],
-
-[InlineKeyboardButton("Channal 👻" ,url="https://t.me/sl_bot_zone") ],
+InlineKeyboardButton("Channal 👻" ,url="https://t.me/sl_bot_zone") ],
               
                  [InlineKeyboardButton("Group 😖", url="https://youtube.com/c/LNtechnical") ]          ]        ) )
 
