@@ -41,7 +41,24 @@ BOTS_TEXT = f"""
 BOTS_BTN = InlineKeyboardMarkup(
             [
                 [
+                    InlineKeyboardButton("Kingster Bot", callback_data="kingstermenu")
+                ],
+                [
                     InlineKeyboardButton("Go Back 👈", callback_data="startmenu")
+                ]
+            ]
+        )
+
+KINGSTER_TXT = f"""
+🤩 Kingster Bot 🤩
+
+🔰 Kingster Is A Powerfull Telegram Group Manager Bot From Cool Moduals.. Kingster Has A Acribute Theme 🚀 🤩 Add Your Group And Enjoi 🤩🤩
+"""
+
+KINGSTER_BTN = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("🚀 Go To The Bot 🚀", url="t.me/szkingster_bot")
                 ]
             ]
         )
@@ -71,6 +88,20 @@ async def startmenu(_, query: CallbackQuery):
 async def botsmenu(_, query: CallbackQuery):
     await query.edit_message_text(BOTS_TEXT,
         reply_markup=BOTS_BTN,
+     disable_web_page_preview=False
+    ) 
+
+@app.on_message(filters.command(["kingster"]))
+async def start(client, message):
+    await message.reply_text(
+        text=KINGSTER_TEXT,
+        disable_web_page_preview=False,
+        reply_markup=KINGSTER_BTN) 
+
+@app.on_callback_query(filters.regex("kingstermenu"))
+async def botsmenu(_, query: CallbackQuery):
+    await query.edit_message_text(KINGSTER_TEXT,
+        reply_markup=KINGSTER_BTN,
      disable_web_page_preview=False
     ) 
         
