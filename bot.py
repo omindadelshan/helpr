@@ -14,7 +14,7 @@ app = Client(
     )
 
 # Keep as Vars
-START_TEXT = f"Hello \n\n I Am SL Bot Zero Bot🥰 \nYou Can Contct SZ Admins And See our All Projects Using This Bot[…](https://telegra.ph/file/89c42d6c34c89df58a5ef.jpg)"
+START_TEXT = f"Hello There👋\n\n I Am SL Bot Zero Bot🥰 \nYou Can Contct SZ Admins And See our All Projects Using This Bot[…](https://telegra.ph/file/89c42d6c34c89df58a5ef.jpg)"
 START_BTN = InlineKeyboardMarkup(
             [
                 [
@@ -30,13 +30,13 @@ START_BTN = InlineKeyboardMarkup(
                 ],
                 [
                     InlineKeyboardButton("✍️ Groupb✍️", url="https://t.me/slbotzone"),
-                    InlineKeyboardButton("🗣️ Channal 🗣️", url="https://t.me/sl_bot_zone")
+                    InlineKeyboardButton("🗣️ Channal 🗣️", url="https://t.me/szteambots")
                 ]
             ]
         )
 
 BOTS_TEXT = f"""
-Here There This Is A Our Bots And Projects 👇👇
+**Here There Welcome To Bot Menu🤩\nThis Is A Our Bots And Projects 👇👇**
 """
 BOTS_BTN = InlineKeyboardMarkup(
             [
