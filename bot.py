@@ -31,7 +31,7 @@ def start(client, message):
 [InlineKeyboardButton("🌐 Our Website 🌐" ,url="https://szbots.ml") ],
 
 [InlineKeyboardButton("👮‍♂️ Owners 👮‍♂️" ,url="https://t.me/slbotzone"),
-InlineKeyboardButton("🔰 Ask 🔰" ,url="https://t.me/sl_bot_zone") ]
+InlineKeyboardButton("🔰 Ask 🔰" ,url="https://t.me/sl_bot_zone") ],
 
 [InlineKeyboardButton("✍️ Groupb✍️" ,url="https://t.me/slbotzone"),
 InlineKeyboardButton("🗣️ Channal 🗣️" ,url="https://t.me/sl_bot_zone") ],
@@ -49,7 +49,7 @@ def start(client, message):
 [InlineKeyboardButton("🌐 Our Website 🌐" ,url="https://szbots.ml") ],
 
 [InlineKeyboardButton("👮‍♂️ Owners 👮‍♂️" ,url="https://t.me/slbotzone"),
-InlineKeyboardButton("🔰 Ask 🔰" ,url="https://t.me/sl_bot_zone") ]
+InlineKeyboardButton("🔰 Ask 🔰" ,url="https://t.me/sl_bot_zone") ],
 
 [InlineKeyboardButton("✍️ Groupb✍️" ,url="https://t.me/slbotzone"),
 InlineKeyboardButton("🗣️ Channal 🗣️" ,url="https://t.me/sl_bot_zone") ],
