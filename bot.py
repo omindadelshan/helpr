@@ -14,7 +14,7 @@ app = Client(
     )
 
 # Keep as Vars
-START_TEXT = f"Hello **[{}](tg://user?id={})** \n\n I Am SL Bot Zero Bot🥰 \nYou Can Contct SZ Admins And See our All Projects Using This Bot[…](https://t.me/omindas)"
+START_TEXT = f"Hello \n\n I Am SL Bot Zero Bot🥰 \nYou Can Contct SZ Admins And See our All Projects Using This Bot[…](https://t.me/omindas)"
 START_BTN = InlineKeyboardMarkup(
             [
                 [
